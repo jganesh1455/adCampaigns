@@ -9,9 +9,9 @@ import java.util.Arrays;
 public class FirstLastNames {
 	
 	private static void lastNameCount(String[] str){
-		
+		// comment
 		String[] lastName = new String[str.length];
-		int j=0, k;
+		int j=0,;
 		for(String s:str){
 			String[] fnln = s.split(" ");
 			if(fnln.length==3){
