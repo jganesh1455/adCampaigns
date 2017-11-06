@@ -11,7 +11,7 @@ public class FirstLastNames {
 	private static void lastNameCount(String[] str){
 		
 		String[] lastName = new String[str.length];
-		int j=0;
+		int j=0, k;
 		for(String s:str){
 			String[] fnln = s.split(" ");
 			if(fnln.length==3){
